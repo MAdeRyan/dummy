@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Cafetarian | Menu Makanan</title>
+  </head>
+  <body style="background: #9fed72">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-brand" href="index.html">Cafetaria</div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="kasirlog.html">Kasir</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="manajerlog.html">Manajer</a>
+            </li>
+          </ul>
+        </div>
+  </nav>
+
+    <div class="container-xl">
+        <div class="container">
+            <div class="bg-light mx-auto mt-5 p-5">
+                <h1 class="text-center font-weigt-bold mb-5">Menu Makanan</h1>    
+                <!-- MESSAGE -->                              
+                <div class="row ml-4">
+                    <div class="column m-3">
+                      <img src="img/nasi.jpg" alt="Nature" onclick="myFunction(this);">
+                      <div class="col-10 mx-auto text-center" >Makanan</div>
+                      <div class="col-10 mx-auto text-center" >Rp. 10.000</div>
+                    </div>
+                    <div class="column m-3">
+                        <img src="img/nasigoreng.jpg" alt="Snow" onclick="myFunction(this);">
+                        <div class="col-10 mx-auto text-center" >Makanan</div>
+                        <div class="col-10 mx-auto text-center" >Rp. 10.000</div>
+                        <div id="jumlah"class="col-10 mx-auto text-center" style="display:none">
+                            <div id="jumlah"class="col-10 mx-auto text-center" >jumlah</div>
+                            <div class="row col-10 mx-auto">
+                                <div class="mx-auto text-center" ><i class="fa fa-minus" onclick="minus()"></i></div>
+                                <div class="mx-auto text-center" id="count">0</div>
+                                <div class="mx-auto text-center" ><i class="fa fa-plus" onclick="plus()"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column m-3">
+                      <img src="img/bakso.jpg" alt="Mountains" onclick="myFunction(this);">
+                      <div class="col-10 mx-auto text-center" >Makanan</div>
+                      <div class="col-10 mx-auto text-center" >Rp. 10.000</div>
+                    </div>
+                    <div class="column m-3">
+                      <img src="img/bakso.jpg" alt="Lights" onclick="myFunction(this);">
+                      <div class="col-10 mx-auto text-center" >Makanan</div>
+                      <div class="col-10 mx-auto text-center" >Rp. 10.000</div>
+                    </div>
+                    <div class="column m-3">
+                      <img src="img/nasi.jpg" alt="Lights" onclick="myFunction(this);">
+                      <div class="col-10 mx-auto text-center" >Makanan</div>
+                      <div class="col-10 mx-auto text-center" >Rp. 10.000</div>
+                    </div>
+                    <div class="column m-3">
+                      <img src="img/nasigoreng.jpg" alt="Lights" onclick="myFunction(this);">
+                      <div class="col-10 mx-auto text-center" >Makanan</div>
+                      <div class="col-10 mx-auto text-center" >Rp. 10.000</div>
+                    </div>
+                  </div>
+                <!-- END OF MESSAGE -->
+                <div class="column mx-auto col-10 text-center">         
+                    <a href="minuman.html" class="menu"> &laquo; Menu Minuman</a>           
+                    <a href="success.html" class="order">Order &raquo;</a>                    
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
